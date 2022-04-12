@@ -19,6 +19,13 @@
   .price {
     color: grey;
     font-size: 22px;
+    font-style: italic
+  }
+
+  .brand {
+    color: rgb(78, 76, 76);
+    font-size: 22px;
+    ;
   }
   
   .card button {
