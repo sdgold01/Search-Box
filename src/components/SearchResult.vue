@@ -5,7 +5,7 @@
         <span v-if="filteredItems.length === 0">No Data available</span>
         <div class="card" v-for="post in filteredItems" :key="post.id">
           <img :src="post.image_url" style="width:50%;">
-          <p class="price">{{ post.brand }}</p>
+          <p class="price">{{ post.title }}</p>
           <p>From £{{ post.price.max }}</p>
           <p><button>View</button></p>
         </div>

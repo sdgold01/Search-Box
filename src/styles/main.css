@@ -1,6 +1,6 @@
 
   input{
-    width: 21%;
+    width: 30%;
     height: 30px;
     border: 2px solid lightgray;
     font-size: 16px;
@@ -8,13 +8,12 @@
   }
 
   .card {
-    max-width: 250px;
+    max-width: 650px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 15px;
     text-align: center;
     font-family: arial;
-    width: 40%; /* three boxes (use 25% for four, and 50% for two, etc) */ 
-    padding: 50px; /* if you want space between the images */
+    padding: 50px;
   }
   
   .price {
